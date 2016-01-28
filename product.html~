@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>products</title>
+ <script src="product.js" type="text/javascript"></script> 
+<link rel="stylesheet" type="text/css" href="product.css">
+</head>
+<body  onload="myFunction();">
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>		
+      <th>CategoryName</th>
+    </tr>
+  </thead>
+  <tbody id="demo">
+    
+  </tbody>  
+  
+
+  
+</table>
+<select id="option" onclick="categories_selected();"></select>
+
+</body>
+</html>
+
